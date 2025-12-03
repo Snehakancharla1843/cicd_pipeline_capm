@@ -4,12 +4,12 @@
   "description": "A simple CAP project with SQLite",
   "private": true,
   "scripts": {
-    "start": "cds run",
-    "build": "cds build",
-    "deploy-sqlite": "cds deploy --to sqlite:db/sqlite.db",
-    "test": "npm run test",
-    "lint": "npx eslint .",
-    "clean": "rm -rf cds-gen db/sqlite.db"
+     "start": "cds run",
+     "build": "cds build",
+     "deploy-sqlite": "cds deploy --to sqlite:db/sqlite.db",
+     "test": "cds test",
+     "lint": "npx eslint .",
+     "clean": "rm -rf cds-gen db/sqlite.db"
   },
   "dependencies": {
     "@sap/cds": "^9",
