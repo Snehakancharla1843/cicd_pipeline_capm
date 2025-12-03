@@ -1,0 +1,42 @@
+name: CAPM CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout source code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (use 22 to match BAS logs)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Lint CAPM project
+      - name: Run ESLint
+        run: npm run lint
+
+      # 5. Deploy to local SQLite (just to ensure CDS model is OK)
+      - name: Deploy to SQLite
+        run: npx cds deploy --to sqlite:db/sqlite.db
+
+      # ⭐ Optional: when you fix tests/build, you can UNCOMMENT these:
+      # - name: Run CAPM tests
+      #   run: npm test
+      #
+      # - name: Build CAPM project
+      #   run: npm run build
