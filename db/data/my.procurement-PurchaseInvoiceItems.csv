@@ -1,0 +1,5 @@
+ID,parent_ID,poItem_ID,material,description,quantity,price,lineAmount
+101,201,301,MAT-1001,Steel Rod 10mm,50,120,6000
+102,201,302,MAT-2002,Aluminium Sheet,25,300,7500
+103,202,303,MAT-3003,Copper Wire Roll,10,450,4500
+104,202,304,MAT-4004,Plastic Granules,100,50,5000

@@ -1,0 +1,5 @@
+ID,name,email,phone,address,createdAt,createdBy,modifiedAt,modifiedBy
+101,Steel Supplies Inc,contact@steelsupplies.com,+1-555-1010,123 Industrial Park,2024-08-01T09:00:00Z,admin,2024-09-01T12:00:00Z,admin
+102,AluWorks Ltd,info@aluworks.com,+1-555-1020,45 Aluminium Street,2024-08-05T10:15:00Z,admin,2024-09-05T14:20:00Z,admin
+103,Copper Corp,sales@coppercorp.com,+1-555-1030,78 Copper Avenue,2024-08-10T08:45:00Z,admin,2024-09-10T11:30:00Z,admin
+104,PlastiCo,service@plastico.com,+1-555-1040,32 Plastic Blvd,2024-08-12T09:30:00Z,admin,2024-09-12T10:45:00Z,admin

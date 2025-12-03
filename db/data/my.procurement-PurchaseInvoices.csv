@@ -1,0 +1,4 @@
+ID,piNumber,po_ID,invoiceDate,postingDate,status,totalAmount,currency,createdAt,createdBy,modifiedAt,modifiedBy
+901,PI-2024-001,201,2024-10-01,2024-10-02,Posted,13500,USD,2024-10-01T10:15:00Z,admin,2024-10-02T12:00:00Z,admin
+902,PI-2024-002,202,2024-10-05,2024-10-05,Created,9500,EUR,2024-10-05T09:30:00Z,admin,2024-10-05T09:30:00Z,admin
+903,PI-2024-003,203,2024-10-10,2024-10-11,Cancelled,4200,USD,2024-10-10T08:00:00Z,admin,2024-10-11T14:20:00Z,admin

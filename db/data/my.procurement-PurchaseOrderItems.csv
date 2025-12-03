@@ -1,0 +1,6 @@
+ID,parent_ID,material,description,quantity,uom,price,lineAmount
+401,301,MAT-7001,Hydraulic Pump,5,EA,1200,6000
+402,301,MAT-8002,Gear Assembly,12,EA,450,5400
+403,302,MAT-9003,Bearing Set,40,SET,80,3200
+404,302,MAT-1004,Valve Kit,15,EA,250,3750
+405,303,MAT-1105,Control Panel,2,EA,3200,6400
